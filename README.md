@@ -19,8 +19,11 @@ The schematic and four-layer PCB are being developed in **Altium Designer**. Thi
 - Develop the circuit schematic and four-layer PCB in Altium Designer.
 
 ## System Architecture
+<img width="1755" height="1241" alt="hack_page-0001" src="https://github.com/user-attachments/assets/1520934f-6645-41ef-86be-0b2c9efc6326" />
 
 ### Power path
+<img width="1774" height="887" alt="Power Tree Diagram" src="https://github.com/user-attachments/assets/79c6cf8a-36af-4680-9592-4ce15b92f146" />
+
 
 **12 V DC input → Input protection → MP1584 buck converter → 3.3 V supply → Controller and peripherals**
 
@@ -57,6 +60,8 @@ The schematic and four-layer PCB are being developed in **Altium Designer**. Thi
 | Wi-Fi | ESP-12F ↔ network | Wireless data transmission |
 
 ## Power Design
+<img width="428" height="713" alt="Screenshot 2026-10-10 133715" src="https://github.com/user-attachments/assets/ae2edb9e-169e-4276-8582-22057e310239" />
+
 
 The planned input is **12 V DC**, with an **MP1584 buck converter** intended to generate a **3.3 V rail**. Input protection is planned ahead of the converter.
 
@@ -65,6 +70,7 @@ Before fabrication, verify the regulator reference design, output-voltage settin
 ## PCB Design
 
 The schematic and PCB are being developed in **Altium Designer**. The proposed four-layer stack-up is:
+<img width="858" height="427" alt="Screenshot 2026-10-10 135935" src="https://github.com/user-attachments/assets/a48e3a4f-ef69-4e73-a277-de4a31484e08" />
 
 1. **L1 — Top:** Signals and components
 2. **L2 — Ground:** Ground plane
@@ -91,21 +97,20 @@ The sampling rate, calibration procedure, data format, wireless protocol, destin
 
 Upload your images to the `images/` folder in this repository. Then change the example paths below to match the filenames you upload. Until those image files exist at these paths, the images will not display.
 
-### System Block Diagram
-
-![System Block Diagram](images/system_block_diagram.png)
-
 ### Circuit Schematic
 
-![Circuit Schematic](images/schematic.png)
 
-### PCB Layout
+<img width="1755" height="1241" alt="hack_page-0002" src="https://github.com/user-attachments/assets/7110f902-313a-4565-8846-41d76c4fe4f5" />
+<img width="1755" height="1241" alt="hack_page-0003" src="https://github.com/user-attachments/assets/ad6c9679-03fb-43c4-a28f-ce8b12027d7b" />
+<img width="1755" height="1241" alt="hack_page-0004" src="https://github.com/user-attachments/assets/8f26cdc2-45fa-46d5-9d90-44f6c5db2d7d" />
 
-![PCB Layout](images/pcb_layout.png)
 
-### Four-Layer PCB Stack-Up
 
-![Four-Layer PCB Stack-Up](images/pcb_stackup.png)
+### PCB 
+<img width="892" height="701" alt="Screenshot 2026-10-11 175101" src="https://github.com/user-attachments/assets/97a3f475-3714-4d31-b069-b85a05a1c6f4" />
+
+
+
 
 ## Verification Before Fabrication
 
