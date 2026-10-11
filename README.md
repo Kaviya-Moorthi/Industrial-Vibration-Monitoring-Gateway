@@ -1,0 +1,1 @@
+# Industrial-Vibration-Monitoring-Gateway
